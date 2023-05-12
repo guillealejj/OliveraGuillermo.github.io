@@ -1,0 +1,140 @@
+body {
+  background-color: #282c34;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+/* Estilos para el reproductor de audio */
+audio {
+  width: 50%;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+audio::-webkit-media-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+audio::-webkit-media-controls-panel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+audio::-webkit-media-controls-play-button {
+  background-image: url("ruta-a-tu-icono-de-play.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  width: 50%;
+}
+
+audio::-webkit-media-controls-mute-button {
+  background-image: url("ruta-a-tu-icono-de-mute.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 25px;
+  width: 25px;
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.button {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  margin: 0 1rem;
+  border-radius: 2rem;
+  background-color: #61dafb;
+  border: none;
+  color: #282c34;
+  cursor: pointer;
+}
+
+
+.hidden {
+  display: none;
+}
+
+*{box-sizing:border-box;}
+
+    .container{
+      width:95%;
+      max-width:900px;
+      padding:32px 64px;
+      margin:auto;
+    }
+
+    .social{
+      /*las imágenes usadas tienen width de 48px*/
+      width:48px;
+      position:fixed;
+      top:50px;
+      right:0;
+    }
+    /* Extra centrado vertical*/
+
+    .social{
+      /*border:1px solid #000;*/
+      top:50%;
+      height:205px;
+      /*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+      margin-top:-100px;
+    }
+
+
+   
+
+.redes-sociales a {
+  color: #fff; /* Color de las letras de los enlaces a redes sociales */
+  margin-right: 20px; /* Espacio entre cada enlace */
+}
+
+.redes-sociales a:hover {
+  color: #ccc; /* Cambia el color de las letras al pasar el cursor sobre el enlace */
+}
+

@@ -1,0 +1,187 @@
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+   .left-column {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 400px;
+        background-color: #f5f5f5;
+        padding:130px;
+        margin-right: 300px;
+      } /* Agrega desplazamiento vertical si el contenido de la columna es demasiado grande */
+
+
+ .right-column {
+        margin-left: 650px;
+        height: 100vh; /* Usamos 100vh en lugar de 100% para asegurarnos de que ocupe toda la altura visible */
+        overflow-y: scroll;
+        padding: 20px;
+        background-color: #f5f5f5
+      }
+
+
+
+
+
+.code-block {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+.experience {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.experience h2 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.experience p {
+  margin-bottom: 10px;
+}
+
+
+.profile-info {
+ 
+  .profile-info 
+  text-align: center;
+  margin-top: 50px;
+
+
+}
+
+.profile-info {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.profile-info h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profile-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-info h3 {
+  font-size: 20px;
+  font-style:arial;
+  color: black;
+}
+
+
+/* Ocultar el scrollbar */
+::-webkit-scrollbar {
+  width: 0.0em;
+  background-color: #F5F5F5;
+}
+
+/* Estilo del thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #CCCCCC;
+  border-radius: 10px;
+}
+
+/* Estilo del thumb al estar hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #555;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+
+
+
+
+/* Estilos para las tarjetas de proyecto */
+.tarjeta-proyecto {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la imagen */
+.tarjeta-proyecto img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* Estilos para el enlace */
+.tarjeta-proyecto a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.tarjeta-proyecto a:hover {
+  background-color: #0069d9;
+}
+
+
+
+
+
+
